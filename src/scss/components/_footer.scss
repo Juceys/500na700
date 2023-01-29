@@ -1,0 +1,28 @@
+.footer {
+  padding: 50px 0 80px;
+  background: #312F35;
+
+  &__container {
+    display: flex;
+    gap: 120px;
+  }
+
+  &__descr {
+    width: 350px;
+    margin: 10px 0 25px;
+  }
+
+  &__link {
+    text-decoration-line: underline;
+  }
+}
+
+.social {
+  display: flex;
+
+  li:not(:last-child) {
+    margin-right: 20px;
+
+  }
+
+}

@@ -1,0 +1,31 @@
+.fz-16 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fz-14 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.section__title {
+  font-family: 'Mplus 1p';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.03em;
+}
+
+// подключения компонентов страницы
+@import "./components/base";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/faq";
+@import "./components/news";
+@import "./components/sub";
+@import "./components/footer";
+@import "./components/media";
+
